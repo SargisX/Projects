@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    height: 750px;
+    background: url("https://images.unsplash.com/photo-1670668532871-3aa12974cbf3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vuc2V0JTIwZmllbGR8ZW58MHx8MHx8fDA%3D") no-repeat center center;
+    position: relative;
+    text-align: center;
+}
+
+.divvv {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+nav ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    max-width: 190px;
+}
+
+.menu_but {
+    width: 135px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: white;
+}
+
+.menu_but:hover {
+    background-color: rgb(88, 189, 88);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.text1 {
+    font-size: 20px;
+}
+
+.sss {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.simvol_but {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: white;
+}
+
+.simvol_but:hover {
+    background-color: rgb(88, 189, 88);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.elipse {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.elipse-kes {
+    width: 100%;
+    height: 260px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+.section2 {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divvvv {
+    position: absolute;
+    top: -200px;
+    width: 1300px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 40px;
+    padding: 10px;
+}
+
+.grids {
+    background-color: #003442;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.divv {
+    width: 130px;
+}
+
+.grids:hover {
+    transform: translateY(-20px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.section2-1 {
+    width: 1300px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.section2-1-1 {
+    width: 550px;
+    text-align: start;
+    padding-top: 20px;
+}
+
+.divo {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(73, 166, 73);
+    border: white;
+}
+
+.but:hover {
+    background-color: orange;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.mustafa {
+    width: 370px;
+    height: 50px;
+    background-color: #003442;
+    border-radius: 25px;
+    border: #003442;
+}
+
+.mustafa:hover {
+    background-color: rgb(106, 106, 205);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.section3 {
+    width: 100%;
+    height: 600px;
+    background-color: #003442;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.div22 {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.but22 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    border: white;
+}
+
+.but22:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.text2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.grid {
+    width: 1300px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    padding: 10px;
+}
+
+.grid div {
+    background-color: aliceblue;
+
+}
+
+.item {
+    position: relative;
+}
+
+.itemDes {
+    width: 393px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    padding: 40px;
+    text-align: start;
+}
+
+.item1 {
+    background: url(https://foxedquarterly.com/wp-content/uploads/2020/05/12-May-2020-1000x999.jpg) no-repeat;
+    background-size: cover;
+}
+
+.item2 {
+    background: url(https://assets.vogue.in/photos/5f2166cf63616a15c5d41933/master/pass/dia%20mirza.jpg) no-repeat;
+    background-size: cover;
+}
+
+.item3 {
+    background: url(https://www.casino.org/blog/wp-content/uploads/shutterstock_417009952-scaled.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mustafa2 {
+    width: 300px;
+    height: 50px;
+    background-color: #003442;
+    border: 1px solid rgb(106, 106, 205);
+    border-radius: 25px;
+}
+
+.mustafa2:hover {
+    background-color: rgb(106, 106, 205);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.section4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.divvv11 {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bajanich {
+    width: 1400px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4-1 {
+    width: 900px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 30px;
+}
+
+.it {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.it1 {
+    background-image: url(https://g2.img-dpreview.com/81C81CB44922409EA3C99FA3E42369CD.jpg);
+}
+
+.it2 {
+    background-image: url(https://g1.img-dpreview.com/FF9CE2684532407EA326F7E9562EB91A.jpg);
+}
+
+.it3 {
+    background-image: url(https://g2.img-dpreview.com/0092C98398254023B844D78BFF2EC71F.jpg);
+}
+
+.section4-2 {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(232, 232, 232);
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.buts {
+    display: flex;
+    gap: 10px;
+}
+
+.simvol_but1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: white;
+    background-color: rgb(106, 106, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.simvol_but1:hover {
+    background-color: rgb(201, 197, 197);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.elipse11 {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.elipse-kes11 {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #003442;
+    position: absolute;
+}
+
+.section5 {
+    width: 100%;
+    height: 500px;
+    background-color: #003442;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.green-div {
+    width: 1300px;
+    height: 120px;
+    background-color: rgb(144, 186, 80);
+    border-radius: 25px;
+    position: absolute;
+    top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+}
+
+.but111 {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but111:hover {
+    background-color: #003442;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+
+.section5-1 {
+    margin-top: 5%;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5-1-1 {
+    width: 400px;
+    height: 300px;
+
+}
+
+.section5-1-2 {
+    width: 300px;
+    height: 300px;
+}
+
+.verj1 {
+    width: 270px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #003442;
+    border: 1px solid rgb(144, 186, 80);
+}
+
+.verj1:hover {
+    cursor: pointer;
+    border: 1px solid orange;
+    transition: 1s;
+}
+
+.verj2 {
+    width: 270px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: orange;
+
+}
+
+.verj2:hover {
+    background-color: rgb(106, 106, 205);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.section5-1-3 {
+    width: 500px;
+    height: 500px;
+}
+
+.text-verj {
+    line-height: 2.5;
+    color: white;
+}
+
+.text-verj:hover {
+    color: green;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.image {
+    background: url("https://images.unsplash.com/photo-1670668532871-3aa12974cbf3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vuc2V0JTIwZmllbGR8ZW58MHx8MHx8fDA%3D") no-repeat center center;
+    width: 100%;
+    min-height: 800px;
+}
