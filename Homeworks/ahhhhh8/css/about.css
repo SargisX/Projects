@@ -1,0 +1,160 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(135deg, #1b2838, #2a3b4d);
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #e4e9f0;
+    overflow-x: hidden;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 98vw;
+    z-index: 11111;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu.active {
+    display: flex;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #aaa;
+}
+
+.cart img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    filter: invert(1);
+}
+
+.text-color {
+    color: rgb(124, 124, 124);
+}
+
+.img-size {
+    height: 230px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cart {
+    margin-right: 25px;
+    display: flex;
+}
+/* About Page Specific Styles */
+.about-container {
+    max-width: 1200px;
+    margin: 120px auto 20px;
+    padding: 40px;
+    background: rgba(36, 41, 53, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: #e4e9f0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #66c0f4;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    opacity: 0.85;
+    line-height: 1.5;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #66c0f4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+
+
+/* Map Section */
+.map iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: rgba(23, 26, 33, 0.85);
+    color: #e4e9f0;
+    font-size: 0.9rem;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.85;
+}

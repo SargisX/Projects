@@ -6,7 +6,8 @@ document.getElementById('signupForm').addEventListener('submit', function (e) {
     const users = getFromLocalStorage('users') || [];
     if (users.find(user => user.username === username)) {
       alert('Username already exists!');
-      return;
+      window.location.href = 'login.html'
+      return
     }
   
     users.push({ username, password });

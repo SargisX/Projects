@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/bankCard.css">
+    <title>Cart</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="./index.html">Game Store</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link cartImg" href="#">Cart<img
+                            src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png"></a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <div class="cart">
+                <h1 class="cart-title">Your Cart</h1>
+                <button class="delete-all-btn" onclick="deleteAll()">Delete All</button>
+    
+                <div id="cart-items">
+                    <div class="product">
+                        <img src="./img/2.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Far Cry 3</h3>
+                                <p class="card-price discount-price">$14.99 <span class="original-price">$49.99</span></p>
+                            </div>
+                            <a href="./GamePages/game1.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/3.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Far Cry 5</h3>
+                                <p class="card-price discount-price">$19.99 <span class="original-price">$39.99</span></p>
+                            </div>
+                            <a href="./GamePages/game2.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/4.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Far Cry 6</h3>
+                                <p class="card-price discount-price">$29.99 <span class="original-price">$49.99</span></p>
+                            </div>
+                            <a href="./GamePages/game3.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/5.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Metro 2033</h3>
+                                <p class="card-price discount-price">$14.99 <span class="original-price">$29.99</span></p>
+                            </div>
+                            <a href="./GamePages/game4.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/6.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Metro Last Light</h3>
+                                <p class="card-price discount-price">$24.99 <span class="original-price">$35.99</span></p>
+                            </div>
+                            <a href="./GamePages/game5.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/7.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Metro Exodus</h3>
+                                <p class="card-price discount-price">$29.99 <span class="original-price">$49.99</span></p>
+                            </div>
+                            <a href="./GamePages/game6.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/8.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>S.T.A.L.K.E.R.: Shadow of Chernobyl</h3>
+                                <p class="card-price discount-price">$29.99 <span class="original-price">$49.99</span></p>
+                            </div>
+                            <a href="./GamePages/game7.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/9.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>S.T.A.L.K.E.R.: Clear Sky</h3>
+                                <p class="card-price discount-price">$18.99 <span class="original-price">$24.99</span></p>
+                            </div>
+                            <a href="./GamePages/game8.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/10.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>S.T.A.L.K.E.R.: Call of Pripyat</h3>
+                                <p class="card-price discount-price">$21.99 <span class="original-price">$29.99</span></p>
+                            </div>
+                            <a href="./GamePages/game9.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/11.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>S.T.A.L.K.E.R. 2: Heart of Chernobyl</h3>
+                                <p class="card-price discount-price">$29.99 <span class="original-price">$49.99</span></p>
+                            </div>
+                            <a href="./GamePages/game10.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/12.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Batman: The Telltale Series</h3>
+                                <p class="card-price discount-price">$10.99 <span class="original-price">$19.99</span></p>
+                            </div>
+                            <a href="./GamePages/game11.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/13.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>Batman: The Enemy Within</h3>
+                                <p class="card-price discount-price">$19.99 <span class="original-price">$29.99</span></p>
+                            </div>
+                            <a href="./GamePages/game12.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/14.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>The Walking Dead: Season 1</h3>
+                                <p class="card-price discount-price">$9.99 <span class="original-price">$15.99</span></p>
+                            </div>
+                            <a href="./GamePages/game13.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/15.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>The Walking Dead: Season 2</h3>
+                                <p class="card-price discount-price">$14.99 <span class="original-price">$24.99</span></p>
+                            </div>
+                            <a href="./GamePages/game14.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="./img/16.jpg" alt="Game Thumbnail" class="product-image">
+                        <div class="product-details">
+                            <div class="det">
+                                <h3>The Walking Dead: A New Frontier</h3>
+                                <p class="card-price discount-price">$19.99 <span class="original-price">$32.99</span></p>
+                            </div>
+                            <a href="./GamePages/game15.html"><button class="view-page-btn">View Page</button></a>
+                        </div>
+                        <button class="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cardContainer" >
+                <div class="cardMain">
+                    <div class="visa_logo">
+                        <img src="./img/VisaCard/logo.png" alt="">
+                    </div>
+                    <div class="visa_info">
+                        <img src="./img/VisaCard/nfc.png" alt="">
+                        <p>4586 7985 9271 6388</p>
+                    </div>
+                    <div class="visa_crinfo">
+                        <p>05/26</p>
+                        <p id="user_name">Sargis Khachatryan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
