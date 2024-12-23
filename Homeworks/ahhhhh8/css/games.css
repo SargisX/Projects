@@ -3,10 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
 
 ::-webkit-scrollbar {
     display: none;
