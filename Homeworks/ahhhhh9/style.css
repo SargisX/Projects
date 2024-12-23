@@ -179,7 +179,7 @@ nav ul {
     cursor: pointer;
 }
 
-.mustafa {
+.tousBtn {
     width: 370px;
     height: 50px;
     background-color: #003442;
@@ -187,7 +187,7 @@ nav ul {
     border: #003442;
 }
 
-.mustafa:hover {
+.tousBtn:hover {
     background-color: rgb(106, 106, 205);
     transition: 1s;
     cursor: pointer;
@@ -274,7 +274,7 @@ nav ul {
     background-size: cover;
 }
 
-.mustafa2 {
+.tousBtn2 {
     width: 300px;
     height: 50px;
     background-color: #003442;
@@ -282,7 +282,7 @@ nav ul {
     border-radius: 25px;
 }
 
-.mustafa2:hover {
+.tousBtn2:hover {
     background-color: rgb(106, 106, 205);
     transition: 1s;
     cursor: pointer;
@@ -444,7 +444,7 @@ nav ul {
     height: 300px;
 }
 
-.verj1 {
+.end1 {
     width: 270px;
     height: 40px;
     border-radius: 25px;
@@ -452,13 +452,13 @@ nav ul {
     border: 1px solid rgb(144, 186, 80);
 }
 
-.verj1:hover {
+.end1:hover {
     cursor: pointer;
     border: 1px solid orange;
     transition: 1s;
 }
 
-.verj2 {
+.end2 {
     width: 270px;
     height: 40px;
     border-radius: 25px;
@@ -466,7 +466,7 @@ nav ul {
 
 }
 
-.verj2:hover {
+.end2:hover {
     background-color: rgb(106, 106, 205);
     color: white;
     cursor: pointer;
@@ -478,12 +478,12 @@ nav ul {
     height: 500px;
 }
 
-.text-verj {
+.text-end {
     line-height: 2.5;
     color: white;
 }
 
-.text-verj:hover {
+.text-end:hover {
     color: green;
     cursor: pointer;
     transition: 1s;
